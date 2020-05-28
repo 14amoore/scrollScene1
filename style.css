@@ -10,6 +10,14 @@ body {
   background-color: #ea08ff;
 }
 
+.postScript {
+  text-align: center;
+  position: relative;
+  min-height: 500px;
+  min-width: 100%;
+  height: 100vh;
+}
+
 #preamble {
   text-align: center;
   position: relative;
@@ -19,14 +27,6 @@ body {
 }
 
 #animate1 {
-  text-align: center;
-  position: relative;
-  min-height: 500px;
-  min-width: 100%;
-  height: 100vh;
-}
-
-#postScript {
   text-align: center;
   position: relative;
   min-height: 500px;
