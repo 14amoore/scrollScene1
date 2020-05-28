@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Intermediate Example 2</title>
+  </head>
+  <body>
+    <section id="preamble">
+      <h1>
+        When the scene is entered in this example, rather than logging a message
+        we will continually log to viewer's progress through the scene. When the
+        viewer leaves the scene we will stop logging the progress.
+      </h1>
+      <p>Scoll down to see it in action.</p>
+    </section>
+    <section class="demo1">
+      <div class="spacer"></div>
+      <div id="trigger1"></div>
+      <div id="animate1">
+        <p id="midChange">
+          When this text reaches the top of the screen the div will turn pink.
+        </p>
+      </div>
+    </section>
+    <section id="postScript">
+      <h1 id="endChange">
+        When you leave the scene this section it will be logged to the console.
+      </h1>
+    </section>
+  </body>
+  <script src="../dist/page6.js"></script>
+</html>
