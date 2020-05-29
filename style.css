@@ -34,4 +34,10 @@ body {
   height: 100vh;
 }
 
+#scrollCount {
+  text-align: center;
+  position: relative;
+  margin-top: 498px;
+}
+
 /*# sourceMappingURL=style.css.map */
