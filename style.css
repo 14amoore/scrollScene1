@@ -1,5 +1,21 @@
 body {
-  background-color: white;
+  background-color: lightgrey;
+}
+
+.spacer {
+  min-height: 200px;
+}
+
+.turnPink {
+  background-color: #ea08ff;
+}
+
+.postScript {
+  text-align: center;
+  position: relative;
+  min-height: 500px;
+  min-width: 100%;
+  height: 100vh;
 }
 
 #preamble {
@@ -10,12 +26,12 @@ body {
   height: 100vh;
 }
 
-.spacer {
-  min-height: 200px;
-}
-
-.turnBlue {
-  background-color: blue;
+#animate1 {
+  text-align: center;
+  position: relative;
+  min-height: 500px;
+  min-width: 100%;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

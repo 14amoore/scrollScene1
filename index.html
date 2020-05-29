@@ -9,29 +9,41 @@
     <section id="preamble">
       <div>
         <h1>
-          This is a simple tweening exercise.
+          This is a beginning exercise with ScrollScene.
         </h1>
-        <h2>There are two examples of basic animations here.</h2>
-        <ul>
+        <h2>There are 4 examples of triggerHook animations here.</h2>
+        <ol>
           <li>
-            When there is not a duration defined for the scene, the tween will
-            start when the scroll reaches the trigger position.
+            Example <a href="./basic/basicEx1.html">one</a> is when triggerHook
+            is set to 0.
           </li>
           <li>
-            If the scene has a duration the progress of the tween will
-            correspond to the scroll position.
+            Example <a href="./basic/basicEx2.html">two</a> is when triggerHook
+            is set to 0.5
           </li>
-          <li>Tweening reffers to "inbetween".</li>
-        </ul>
+          <li>
+            Example <a href="./basic/basicEx3.html">three</a> is when the
+            duration is set to '100%' and reverse is set to true.
+          </li>
+          <li>
+            Example <a href="./basic/basicEx4.html">four</a> is when triggerHook
+            is set to 0.5 and the offset is set to 100.
+          </li>
+        </ol>
       </div>
-    </section>
-    <section class="demo">
-      <div class="spacer"></div>
-      <div id="trigger1"></div>
-      <div id="animate1">
-        <p>This is my first try</p>
+      <div>
+        <h1>These are intermediate exercises using events.</h1>
+        <ol>
+          <li>
+            <a href="./intermediate/intEx5.html">This</a> uses on enter, and on
+            leave to log events.
+          </li>
+          <li>
+            <a href="./intermediate/intEx6.html">This</a> uses on progress to
+            log events.
+          </li>
+        </ol>
       </div>
     </section>
   </body>
-  <script src="./dist/main.js"></script>
 </html>
