@@ -34,6 +34,7 @@ body {
 
 .background {
   background-image: url(./assets/ikeda2.jpg);
+  background-repeat: no-repeat;
 }
 
 #preamble {
